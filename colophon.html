@@ -1,0 +1,211 @@
+<!DOCTYPE html public " ® ä M $ Ð ε Ñ ">
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jim Ramsden">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow" />
+    <meta name="google-site-verification" content="514yOe6hw_bU1ciyyDgsqTOa_N9MlrDK3d_SBp3CPEo" />
+    <title>Colophon by Jim Ramsden</title>
+    <meta name="description" content="portfolio" />
+    <meta name="keywords" content="UI Designer, Interface Designer, Creative Director." />
+    <link rel="alternate" type="application/rss+xml" href="feed.rss" title="Notes by Jim Ramsden" />
+    <link rel="stylesheet" href="assets/css/base.min-=v6.css" />
+        <script src="assets/js/modernizr.js"></script>
+    <script src="assets/js/wfl.js"></script>
+    <link rel="prefetch" href="about.html">
+</head>
+
+<body class="sidebar">
+
+    
+    <div id="topbar" role="banner">
+        <a class="logo icon-btn" href="index.html"><i class="icon-jim"></i><span class="vishid">Home</span></a>
+        <a id="nav-trigger" class="icon-btn" href="colophon.html#nav"><i class="icon-reorder"></i><span class="vishid">Jump to menu</span></a>
+    </div>
+
+    <section id="page" class="post" role="main">
+
+        <header class="wrap post-header">
+            <h1 class="page-title">Colophon</h1>
+        </header>
+
+        <hr/>
+
+        <article class="wrap post-content">
+
+            <h4>WTF is a Colophon?</h4>
+
+<p>A brief description of publication or production notes relevant to the edition, in modern books usually located at the verso of the title-leaf, but also sometimes located at the end of the book.</p>
+
+<p><em>So before I forget, I&#8217;d like to explain what happened behind the scenes on this site.</em></p>
+
+<h3>Approach</h3>
+
+<p>You&#8217;re no doubt familiar with the old adage: <em>&#8220;The toughest client is yourself&#8221;.</em> Well it&#8217;s true, designing your own site can be a frustrating experience. </p>
+
+<p>When I&#8217;ve worked on personal projects before it&#8217;s tended to be a  messy, drawn-out, indecisive process. I&#8217;d struggle to produce anything I was happy with and/or I&#8217;d change my mind every 5 mins and lose interest.</p>
+
+<p>To avoid this happening again, I set myself <strong>4 rules</strong>;</p>
+
+<ol>
+<li><strong>Stick to the MVP</strong> - with yourself as the client, it&#8217;s too easy to change the scope as you get further into the project. I made a list of the site structure, and detailed every <em>essential element</em> that would be on the page.</li>
+<li><strong>Avoid trends</strong> - I deliberately ignored looking at any other blogs/personal sites or any source of inspiration. It&#8217;s easy to be influenced (consciously or subconsciously) by popular shots on Dribbble, only to find that 6 months later you want to rip it down.</li>
+<li><strong>Build it fast</strong> - I wanted to keep momentum to avoid backing out / changing my mind. I set out a realistic schedule and stuck to it.</li>
+<li><strong>Make it personal</strong> - probably the most important thing I wanted to remember. Not lose sight of why I was making the site in the first place - to do things my own way, be myself and communicate who I am.</li>
+</ol>
+
+<p>Setting myself these rules made the decision making process so much simpler.</p>
+
+<h3>Design Decisions</h3>
+
+<h5>Responsive</h5>
+
+<p>I anticipated that my audience would be on a wide variety of devices but guessed it would be a large percentage of iPhone users - <em>you know what this industry&#8217;s like.</em></p>
+
+<p><strong>Update:</strong> So far, my stats show that 20% of traffic is from an iPhone.</p>
+
+<p>The site is optimised for small screens. I use a simple layout, sticking to a single column, right up until my final breakpoint (approx. 1100px) where I load in a sidebar.</p>
+
+<p>My content is mostly articles with a few 600px Instagram photos thrown in, so it made no sense to go beyond this width, even on wider viewports of 1280+. Text reads better in a narrow column.</p>
+
+<h5>Typography</h5>
+
+<p>With the sites minimal style, the typography had to do a lot of work.</p>
+
+<p>I pushed myself to use a font that was unfamiliar, so I hit the ever expanding <a href="http://www.google.com/webfonts">Google Web font library</a>.</p>
+
+<p><strong>Google fonts FTW.</strong> I&#8217;ve never paid for a font yet!</p>
+
+<p>I settled on <a href="http://www.google.com/webfonts/specimen/Dosis">Dosis</a> (sans-serif) for headings and <a href="http://www.google.com/webfonts/specimen/bitter">Bitter</a> (serif) as a body font. Both fonts have friendly/rounded characteristics that compliment the style of the UI, and more importantly they render nicely on small screens.</p>
+
+<p>I wan&#8217;t comfortable with my Dosis at first, but it started to grow on me, and now I think it holds the design together.</p>
+
+<p>I use <a href="http://fittextjs.com/">Fittext</a> in a couple of places to control large headings.</p>
+
+<p>I find a lot of sites display too few characters on small screens&#8230;</p>
+
+<p>Leading to a really<br />
+awkward line length<br />
+that breaks-down<br />
+sentences too much and<br />
+makes them tricky to<br />
+read.</p>
+
+<p>I made sure I avoided this; the body font size has been set to 12px at min-width and 21px at max-width. This ensures an optimal line length of 55-75 characters.</p>
+
+<h5>Images</h5>
+
+<p>I use the <a href="http://www.appelsiini.net/projects/lazyload">LazyLoad</a> plugin to control my images. Some of my photo albums have 20+ photos in them, so the page load quickly adds up. Using LazyLoad allows me to load images as users scroll them into view.</p>
+
+<h5>Navigation</h5>
+
+<p>My navigation menu is the bit i&#8217;m probably most fond of, it&#8217;s very simple, but that&#8217;s why I like it.</p>
+
+<p>It&#8217;s JS free - using CSS transitions and the :target pseudo-element as a selector.</p>
+
+<p>It&#8217;s semantic - the navigation markup sits at the base of the document and gets displayed at the top when users trigger the menu.</p>
+
+<p>I&#8217;m going to write up a short post to share the source code for anyone else that wants to use this approach.</p>
+
+<h5>Colour palette</h5>
+
+<p>I experimented with a few colour palettes; orange and brown, black and white, even purple an pink!</p>
+
+<p>In the end I settled on a desaturated red (#C66) which is only a few hex colours down from the Etch red (#F66).</p>
+
+<h5>Icons</h5>
+
+<p>I created a custom icon font using <a href="http://icomoon.io">Icomoon</a> - it&#8217;s an awesome tool and has changed the way I build interfaces.</p>
+
+<p>It allows you to upload SVGs and incorporate them into a web font. This means my &#8216;Jim&#8217; logo is actually a text symbol, so there&#8217;s no images in the UI, which means no stressing about high pixel densities.</p>
+
+<h5>CMS</h5>
+
+<p>I write all my notes in iAWriter, so I wanted a CMS that was markdown friendly. I also wanted to avoid databases - MySQL is my Kryptonite.</p>
+
+<p>That narrowed my choice down to three (<em>yes, I did feel a bit like Goldilocks</em>): </p>
+
+<ol>
+<li><a href="http://getkirby.com">Kirby</a> by <a href="http://twitter.com/bastianallgeier">Bastian Allgeier</a></li>
+<li><a href="http://anchorcms.com">Anchor</a> by <a href="http://twitter.com/idiot">@idiot</a></li>
+<li><a href="http://jekyllrb.com">Jekyll</a> by <a href="http://twitter.com/mojombo">Tom Preston-Werner</a> (Co-founder of GitHub)</li>
+</ol>
+
+<p>Jekyll was a bit too advanced for my tiny left brain, so it came down to a fight between Kirby and Anchor.</p>
+
+<p>In the end Kirby won - it had few nifty features and more documentation to help me get to grips with it quicker. The thing that finally swung it was this tutorial: <a href="http://getkirby.com/blog/kirby-meets-dropbox">Connect Kirby with Dropbox</a>, which explains how to run a Kirby site out of a dropbox folder on your server. <em>I&#8217;ll explain this in another post</em>.</p>
+
+<h5>Comments or No comments</h5>
+
+<p>In my experience from Design Fridge, comments can be a bit hit and miss. I didn&#8217;t want the task of sifting through lots of spam. I considered using <a href="http://disqus.com">Disqus</a>, which integrates well with Kirby, but in the end I decided not to include commenting functionality (at least on launch anyway).</p>
+
+<p>I&#8217;m pleased to say it&#8217;s one best decision I made. It seems that by not allowing comments directly on the site, responses are channeled to twitter and email. This means that only serious people share their thoughts, and they&#8217;re articulated in a more concise way, uninfluenced by a thread.</p>
+
+<p>It&#8217;s also easier for me to manage communications through my twitter/email clients and so far I&#8217;ve had some really enjoyable discussions.</p>
+
+        </article>
+
+        <hr/>
+
+    </section>
+
+    <aside id="sitemeta">
+                
+        <div class="mini-profile wrap" itemscope itemtype="http://schema.org/Person"/>
+            <a itemprop="name" rel="author" href="about.html"><img class="avatar photo" alt="Jim Ramsden" src="assets/img/base/avatar.jpg"></a>
+            <h4 class="main-title"><a itemprop="name" href="about.html">Jim Ramsden</a></h4>
+            <h6 class="sub-title"><span itemprop="jobTitle">Designer of Internets</h6>
+            <div itemprop="description"><p>I&#8217;m a designer from the UK. I work at <a href="http://etchapps.com">Etch</a> where we make apps for devices, big and small.</p>
+</div>
+	        <ul class="inline-list">
+	            <li><a href="http://twitter.com/ramsden" target="_blank"><i class="icon-twitter"></i> @ramsden</a></li>
+	            <li><a href="mailto:jimram@me.com"><i class="icon-envelope" title="Email"></i> Email</a></li>
+	            <li><a href="feed.rss"><i class="icon-feed" title="RSS Feed"></i> Feed</a></li>
+	        </ul>
+        </div>
+        
+        <nav id="nav" role="navigation">
+
+            <a class="home-link" href="index.html">jimramsden.com</a>
+
+            <ul class="nav-menu">
+            
+                <li><a href="notes.html"><i class="icon-pencil"></i>Notes</a></li>
+            
+                <li><a href="photos.html"><i class="icon-camera-retro"></i>Photos</a></li>
+            
+                <li><a href="projects.html"><i class="icon-lightbulb"></i>Projects</a></li>
+            
+                <li><a href="about.html"><i class="icon-profile"></i>Profile</a></li>
+            
+            </ul>
+
+            <a id="close-nav" href="colophon.html#"><i class="icon-remove"></i><span>Back to top</span></a>
+            
+        </nav>
+        
+    </aside>
+
+    <footer id="footer" class="wrap">
+        <p>©2016&#160;<a href="index.html">Jim Ramsden</a> | <a href="colophon.html">Colophon</a> | <a href="quotes.html">Quotes</a></p>
+    </footer>
+
+	<script src="../ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/main.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-38393465-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+</body>
+</html>
