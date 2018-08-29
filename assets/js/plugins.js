@@ -50,7 +50,7 @@
 
       // Store the object
       var $this = $(this);
-        
+
       // Resizer() resizes items based on the object width divided by the compressor * 10
       var resizer = function () {
         $this.css('font-size', Math.max(Math.min($this.width() / (compressor*10), parseFloat(settings.maxFontSize)), parseFloat(settings.minFontSize)));
@@ -61,12 +61,13 @@
 
       // Call on resize. Opera debounces their resize by default.
       $(window).on('resize', resizer);
-      
+
     });
 
   };
 
 })( jQuery );
+
 
 
 /*

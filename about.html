@@ -12,9 +12,14 @@
     <meta name="keywords" content="UI Designer, Interface Designer, Creative Director." />
     <link rel="alternate" type="application/rss+xml" href="/feed.rss" title="Notes by Jim Ramsden" />
     <link rel="stylesheet" href="/assets/css/base.min-=v6.css" />
-        <script src="/assets/js/modernizr.js"></script>
+    <script src="/assets/js/modernizr.js"></script>
     <script src="/assets/js/wfl.js"></script>
-
+    <script>
+      'use strict';var _getStatus=require('./getStatus'),_getStatus2=_interopRequireDefault(_getStatus);function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}function slackStatusInit(){var a=document.querySelectorAll('.slack-status');a&&a.forEach(function(a){var b=a.getAttribute('data-id');(0,_getStatus2.default)({id:b}).then(function(b){if(b.user){var c='
+      <div className="slack-status__emoji">'+b.user.statusEmoji+'</div>
+      <p className="slack-status__text">'+b.user.statusText+'</p>
+      ';a.innerHTML=c,a.classList.remove('slack-status--loading')}})})}slackStatusInit();
+    </script>
 </head>
 
 <body>
@@ -32,8 +37,7 @@
     <section id="page" role="main">
 
         <article class="wrap post-content">
-
-                    <figure class="photo ll">
+            <figure class="photo ll">
                 <img src="content/04-about/mugshot.thumb.jpg" data-original="http://jimramsden.com/content/04-about/mugshot.jpg" alt="Jim Ramsden" />
                 <figcaption>This is me, doing an impression of myself.</figcaption>
             </figure>
@@ -51,7 +55,7 @@
 
             <p>I&#8217;m Jim, a designer from the UK. I work at <a href="https://etch.co">Etch</a> where we design and build apps for devices, big and small. </p>
 
-<p>I have a hardwired desire to be better, an instinct for good design, a strong ambition to make a difference on the web,  embarrassing hang-ups on semantics, and evangelistic tendencies.</p>
+            <p>I have a hardwired desire to be better, an instinct for good design, a strong ambition to make a difference on the web,  embarrassing hang-ups on semantics, and evangelistic tendencies.</p>
 
             <div class="network-block">
                 <h4 class="block-title">Look me up on...</h4>
@@ -71,40 +75,42 @@
             <div class="half l">
                 <h4><i class="icon-heart"></i> Life so far...</h4>
                 <ul>
-<li>Breathing since 1982</li>
-<li>Nearly died in 1996</li>
-<li>Met the perfect girl in 2005</li>
-<li>Proposed to her in 2008</li>
-<li>Married her in 2012</li>
-<li><s>Expecting a baby in 2013</s></li>
-<li>Became a Dad in 2013</li>
-</ul>
+                    <li>Breathing since 1982</li>
+                    <li>Nearly died in 1996</li>
+                    <li>Met the perfect girl in 2005</li>
+                    <li>Proposed to her in 2008</li>
+                    <li>Married her in 2012</li>
+                    <li><s>Expecting a baby in 2013</s></li>
+                    <li>Became a Dad in 2013</li>
+                </ul>
                 <h4><i class="icon-lightbulb"></i> Thinking about...</h4>
                 <ul>
-<li>Ecosystems</li>
-<li>Performance</li>
-<li>EdTech</li>
-</ul>
+                    <li>Ecosystems</li>
+                    <li>Performance</li>
+                    <li>EdTech</li>
+                </ul>
             </div>
 
             <div class="half r">
                 <h4><i class="icon-heart"></i> Lover of...</h4>
                 <ul>
-<li>Barefaced Branding</li>
-<li>Friendly Functionality</li>
-<li>Characterful Copy</li>
-<li>Intuitive Interfaces</li>
-<li>Clean Code</li>
-<li>Simple Sign-up</li>
-<li>Awesome Alliteration</li>
-</ul>
+                    <li>Barefaced Branding</li>
+                    <li>Friendly Functionality</li>
+                    <li>Characterful Copy</li>
+                    <li>Intuitive Interfaces</li>
+                    <li>Clean Code</li>
+                    <li>Simple Sign-up</li>
+                    <li>Awesome Alliteration</li>
+                </ul>
                 <h4><i class="icon-fire"></i> Hater of...</h4>
                 <ul>
-<li>Bullshit Buzzwords</li>
-<li>Decorative Design</li>
-<li>Copy Cats</li>
-</ul>
+                    <li>Bullshit Buzzwords</li>
+                    <li>Decorative Design</li>
+                    <li>Copy Cats</li>
+                </ul>
             </div>
+
+            <div class="slack-status slack-status--loading" data-id="U2NJZNMTN"></div>
 
         </article>
 
@@ -141,7 +147,7 @@
         <p>©2018&#160;<a href="/">Jim Ramsden</a> | <a href="/colophon">Colophon</a> | <a href="/quotes">Quotes</a></p>
     </footer>
 
-	<script src="/ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="/vendor/jquery-1.8.3.min.js"><\/script>')</script>
 	<script src="/assets/js/plugins.js"></script>
 	<script src="/assets/js/main.js"></script>
