@@ -15,10 +15,13 @@
     <script src="/assets/js/modernizr.js"></script>
     <script src="/assets/js/wfl.js"></script>
     <script>
-      'use strict';var _getStatus=require('./getStatus'),_getStatus2=_interopRequireDefault(_getStatus);function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}function slackStatusInit(){var a=document.querySelectorAll('.slack-status');a&&a.forEach(function(a){var b=a.getAttribute('data-id');(0,_getStatus2.default)({id:b}).then(function(b){if(b.user){var c='
-      <div className="slack-status__emoji">'+b.user.statusEmoji+'</div>
-      <p className="slack-status__text">'+b.user.statusText+'</p>
-      ';a.innerHTML=c,a.classList.remove('slack-status--loading')}})})}slackStatusInit();
+      'use strict';
+      var _getStatus=require('./getStatus'),_getStatus2=_interopRequireDefault(_getStatus);function _interopRequireDefault(a)
+      {return a&&a.__esModule?a:{default:a}}function slackStatusInit()
+      {var a=document.querySelectorAll('.slack-status');a&&a.forEach(function(a)
+      {var b=a.getAttribute('data-id');(0,_getStatus2.default)({id:b}).then(function(b){if(b.user)
+      {var c='<div className="slack-status__emoji">'+b.user.statusEmoji+'</div><span className="slack-status__text">'+b.user.statusText+'</span>';
+      a.innerHTML=c,a.classList.remove('slack-status--loading')}})})}slackStatusInit();
     </script>
 </head>
 
