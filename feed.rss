@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?><!-- generator="Kirby" -->
 
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:wfw="https://wellformedweb.org/CommentAPI/" xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:atom="https://www.w3.org/2005/Atom">
 
   <channel>
     <title>Notes by Jim Ramsden</title>
-    <link>http://jimramsden.com/notes</link>
+    <link>https://jimramsden.com/notes</link>
     <generator>Kirby</generator>
     <lastBuildDate>Thu, 29 Dec 2018 14:55:29 +0000</lastBuildDate>
-    <atom:link href="http://jimramsden.com/feed" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jimramsden.com/feed" rel="self" type="application/rss+xml" />
 
         <description>Get my notes rammed right-up your reader!</description>
     
         <item>
       <title>Learn to let go</title>
-      <link>http://jimramsden.com/notes/learn-to-let-go</link>
-      <guid>http://jimramsden.com/notes/learn-to-let-go</guid>
+      <link>https://jimramsden.com/notes/learn-to-let-go</link>
+      <guid>https://jimramsden.com/notes/learn-to-let-go</guid>
       <pubDate>Tue, 10 Sep 2013 00:00:00 +0000</pubDate>
 
                   <description><![CDATA[As Designers, we take pride in our work and set high standards for ourselves. At the start of each project we endeavour to create a product that is better, faster, easier and more beautifully executed than the last. In short, we seek perfection, and anything that doesn&#8217;t move us closer to…]]></description>
@@ -22,8 +22,8 @@
     </item>
         <item>
       <title>Fix first, polish later</title>
-      <link>http://jimramsden.com/notes/fix-first-polish-later</link>
-      <guid>http://jimramsden.com/notes/fix-first-polish-later</guid>
+      <link>https://jimramsden.com/notes/fix-first-polish-later</link>
+      <guid>https://jimramsden.com/notes/fix-first-polish-later</guid>
       <pubDate>Sun, 14 Jul 2013 00:00:00 +0000</pubDate>
 
                   <description><![CDATA[You pull up outside a nightclub. You&#8217;re driving a brand new, top of the range, Mercedes-Benz, which just so happens to have a headlight out. When you get out of the car people don&#8217;t say &#8220;hey nice car&#8221;, they&#8217;ll tell you you&#8217;ve got a broken headlight. The same…]]></description>
@@ -31,8 +31,8 @@
     </item>
         <item>
       <title>Newborn Clients</title>
-      <link>http://jimramsden.com/notes/newborn-clients</link>
-      <guid>http://jimramsden.com/notes/newborn-clients</guid>
+      <link>https://jimramsden.com/notes/newborn-clients</link>
+      <guid>https://jimramsden.com/notes/newborn-clients</guid>
       <pubDate>Sun, 16 Jun 2013 00:00:00 +0000</pubDate>
 
                   <description><![CDATA[Two weeks ago my life changed forever with the arrival of my daughter, Summer Faye Ramsden. I&#8217;ve been asked a few times by baby-free colleagues, &#8220;what&#8217;s it like to be a Dad?&#8221; To which I reply, &#8220;it&#8217;s a lot like working on an exciting project with a new…]]></description>
@@ -40,8 +40,8 @@
     </item>
         <item>
       <title>What's an idea worth?</title>
-      <link>http://jimramsden.com/notes/whats-an-idea-worth</link>
-      <guid>http://jimramsden.com/notes/whats-an-idea-worth</guid>
+      <link>https://jimramsden.com/notes/whats-an-idea-worth</link>
+      <guid>https://jimramsden.com/notes/whats-an-idea-worth</guid>
       <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
 
                   <description><![CDATA[Creating a new product is like an explorer setting off on a journey. There&#8217;s a long road ahead of you, lots of traveling to do, bridges to cross, dead ends to discover. Sometimes you won&#8217;t even know if you&#8217;re going in the right direction - relying on instincts and experience to…]]></description>
@@ -49,8 +49,8 @@
     </item>
         <item>
       <title>Pixel Gymnastics</title>
-      <link>http://jimramsden.com/notes/pixel-gymnastics</link>
-      <guid>http://jimramsden.com/notes/pixel-gymnastics</guid>
+      <link>https://jimramsden.com/notes/pixel-gymnastics</link>
+      <guid>https://jimramsden.com/notes/pixel-gymnastics</guid>
       <pubDate>Sun, 14 Apr 2013 00:00:00 +0000</pubDate>
 
                   <description><![CDATA[90%* of the shots on Dribbble are created with the absence of purpose. It&#8217;s not Design, it&#8217;s Pixel Gymnastics. *Stat pulled from thin air, for effect. You know Dribbble, it&#8217;s that place where designers showcase their latest creations. I go there for UI design inspiration, and…]]></description>
@@ -58,8 +58,8 @@
     </item>
         <item>
       <title>Empty-handed Pitching</title>
-      <link>http://jimramsden.com/notes/empty-handed-pitching</link>
-      <guid>http://jimramsden.com/notes/empty-handed-pitching</guid>
+      <link>https://jimramsden.com/notes/empty-handed-pitching</link>
+      <guid>https://jimramsden.com/notes/empty-handed-pitching</guid>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
 
                   <description><![CDATA[Turning up to a pitch with nothing to show enables you more opportunity to explain what you&#8217;re capable of doing, and offers the client a better experience. It&#8217;s still common practice for agencies, studios and freelancers to roll up to a pitch and present concepts. Clients revel in this…]]></description>
@@ -67,8 +67,8 @@
     </item>
         <item>
       <title>Colophon</title>
-      <link>http://jimramsden.com/notes/colophon</link>
-      <guid>http://jimramsden.com/notes/colophon</guid>
+      <link>https://jimramsden.com/notes/colophon</link>
+      <guid>https://jimramsden.com/notes/colophon</guid>
       <pubDate>Mon, 25 Feb 2013 00:00:00 +0000</pubDate>
 
                   <description><![CDATA[WTF is a Colophon? In early printed books the Colophon was a brief description of the printing and publication of the book. When used on the web, Colophons commonly include technical details about the way a site was built. So before I forget, I&#8217;d like to explain what happened behind the…]]></description>
@@ -76,8 +76,8 @@
     </item>
         <item>
       <title>So far, so surprised</title>
-      <link>http://jimramsden.com/notes/so-far-so-surprised</link>
-      <guid>http://jimramsden.com/notes/so-far-so-surprised</guid>
+      <link>https://jimramsden.com/notes/so-far-so-surprised</link>
+      <guid>https://jimramsden.com/notes/so-far-so-surprised</guid>
       <pubDate>Sun, 24 Feb 2013 00:00:00 +0000</pubDate>
 
                   <description><![CDATA[This site has been in the wild for two weeks now, I rushed it out pretty quickly and tidied up the last bits whilst it was live. Thank you to the people that alerted me to some of the cross-browser bugs and typos that slipped through my testing net. They&#8217;ve been fixed and v1 is officially…]]></description>
@@ -85,8 +85,8 @@
     </item>
         <item>
       <title>No more 'Mobile'</title>
-      <link>http://jimramsden.com/notes/no-more-mobile</link>
-      <guid>http://jimramsden.com/notes/no-more-mobile</guid>
+      <link>https://jimramsden.com/notes/no-more-mobile</link>
+      <guid>https://jimramsden.com/notes/no-more-mobile</guid>
       <pubDate>Sun, 10 Feb 2013 00:00:00 +0000</pubDate>
 
                   <description><![CDATA[In this industry, we speak a specialist language; some terms and phrases are firmly embedded in our craft, whilst new ones emerge daily. It&#8217;s important that we understand each other, collaboration is common, whether its designer to developer, client to supplier or agency to freelancer. One…]]></description>
@@ -94,8 +94,8 @@
     </item>
         <item>
       <title>Photoshop doesn't work</title>
-      <link>http://jimramsden.com/notes/photoshop-doesnt-work</link>
-      <guid>http://jimramsden.com/notes/photoshop-doesnt-work</guid>
+      <link>https://jimramsden.com/notes/photoshop-doesnt-work</link>
+      <guid>https://jimramsden.com/notes/photoshop-doesnt-work</guid>
       <pubDate>Mon, 04 Feb 2013 00:00:00 +0000</pubDate>
 
                   <description><![CDATA[Note: This isn&#8217;t about a bug or glitch (of which Photoshop has many) it&#8217;s an objective look at the application that has been the go to tool for web designers since… well, like forever. Confession, i&#8217;ve never used Photoshop for interface design (i&#8217;ve always preferred…]]></description>
