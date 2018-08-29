@@ -12,14 +12,39 @@
     <meta name="keywords" content="UI Designer, Interface Designer, Creative Director." />
     <link rel="alternate" type="application/rss+xml" href="/feed.rss" title="Notes by Jim Ramsden" />
     <link rel="stylesheet" href="/assets/css/base.min-=v6.css" />
+    <meta name="statusify-team-id" content="T2NKF34F3" />
+    <meta name="statusify-token" content="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJVMk5KWk5NVE4iLCJ0ZWFtSWQiOiJUMk5LRjM0RjMiLCJyb2xlIjoidmlld2VyIiwiaWF0IjoxNTM1NTQ3NDU4fQ.CKrOV9tU1wJvyT0s9Hh5QYoDrNy7kM-Pt1q0w2yw6p4" />
     <script src="/assets/js/modernizr.js"></script>
     <script src="/assets/js/wfl.js"></script>
     <script>
+      // Get the users current status from the API.
+      // Returns a promise, then the data.
+
+      function query({ id }) {
+        return `
+          query {
+            user(slackId: "${id}") {
+              statusText
+              statusEmoji
+            }
+          }
+        `;
+      }
+
+      function getStatus({ id }) {
+        return fetch('https://slackout.etch.co', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query: query({ id }) }),
+        })
+        .then(res => res.json())
+        .then(res => res.data);
+      }
+
       'use strict';
-      var _getStatus=require('./getStatus'),_getStatus2=_interopRequireDefault(_getStatus);function _interopRequireDefault(a)
-      {return a&&a.__esModule?a:{default:a}}function slackStatusInit()
+      function slackStatusInit()
       {var a=document.querySelectorAll('.slack-status');a&&a.forEach(function(a)
-      {var b=a.getAttribute('data-id');(0,_getStatus2.default)({id:b}).then(function(b){if(b.user)
+      {var b=a.getAttribute('data-id');getStatus({id:b}).then(function(b){if(b.user)
       {var c='<div className="slack-status__emoji">'+b.user.statusEmoji+'</div><span className="slack-status__text">'+b.user.statusText+'</span>';
       a.innerHTML=c,a.classList.remove('slack-status--loading')}})})}slackStatusInit();
 
